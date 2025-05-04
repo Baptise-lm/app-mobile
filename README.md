@@ -36,20 +36,13 @@ L'application utilise l'API Trefle pour récupérer les informations sur les pla
 
 ### Installation
 
-1. Clonez le dépôt du projet :
-
-    ```bash
-    git clone https://github.com/votre-utilisateur/plantapp.git
-    cd plantapp
-    ```
-
-2. Installez les dépendances :
+1. Installez les dépendances :
 
     ```bash
     npm install
     ```
 
-3. Configurez les variables d'environnement :
+2. Configurez les variables d'environnement :
 
     Créez un fichier `.env` à la racine du projet et ajoutez-y vos variables d'environnement :
 
@@ -60,8 +53,12 @@ L'application utilise l'API Trefle pour récupérer les informations sur les pla
 
 ### Lancement
 
-Pour lancer l'application sur un émulateur Android ou iOS :
+Lancer le serveur : 
+```bash
+npm start
+```
 
+Build l'application :
 ```bash
 npm run android
 ```
